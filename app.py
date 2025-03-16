@@ -15,6 +15,7 @@ def index():
         </html>
     '''
 
+
 @app.route('/greet', methods=['POST'])
 def greet():
     user_input = request.form['username']
